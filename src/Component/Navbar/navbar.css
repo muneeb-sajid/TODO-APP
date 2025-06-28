@@ -1,0 +1,42 @@
+body,html{
+    padding:0;
+    margin:0;
+}
+.list ul{
+    display:flex;
+    justify-content: space-between;
+    gap:250px;
+    
+}
+
+.list li{
+    display: flex;
+}
+.todo{
+    font-size: xx-large;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color:azure;
+    cursor: pointer;
+}
+.list a{
+    text-decoration: none;
+    color:#4d4d56;
+    text-transform: uppercase;
+    font-size: larger;
+}
+
+.list{
+  display:flex;
+  background-color:#9395D3;
+  height:70px;
+}
+.calendar {
+   height:30px;
+   width:30px;
+   border-radius: 10px;
+   justify-content: center;
+   align-items: center;
+   border: 1px solid rgb(252, 242, 242);
+    
+}

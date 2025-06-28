@@ -1,0 +1,52 @@
+body,html{
+    padding:0;
+    margin:0;
+}
+.navbar ul{
+    display:flex;
+    gap:300px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.navbar li{
+    display: flex;
+    
+}
+.add{
+    font-size: xx-large;
+    color:aliceblue
+}
+.navbar{
+    background-color:#9395D3;
+    
+    display: flex;
+    
+}
+.fname{
+    border: none;
+    border-bottom: 1px solid black;
+    width:300px;
+    height:40px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px;
+    gap:30px;
+}
+.add_btn{
+    width:300px;
+    height:40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #9395D3;
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+}
+#arrow{
+    font-size: x-large;
+    cursor: pointer;
+}
